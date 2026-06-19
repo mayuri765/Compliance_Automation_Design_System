@@ -1,0 +1,377 @@
+{
+  "deviceName" : "21295_PE2-vrf-cos 6",
+  "totalRules" : 92,
+  "totalPassed" : 21,
+  "totalFailed" : 71,
+  "compliancePercentage" : 22.83,
+  "overallStatus" : "FAIL",
+  "results" : [ {
+    "ruleId" : "CISC-RT-000010",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000050",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000060",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000090",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000120",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000150",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000160",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000170",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000180",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000190",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000200",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000210",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000220",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000230",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000235",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000236",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000237",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000240",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000250",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000260",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000270",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000280",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000290",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000300",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000310",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000320",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000330",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000340",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000350",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000360",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000370",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000380",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000390",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000391",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000392",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000393",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000394",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000395",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000396",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000397",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000398",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000400",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000410",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000420",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000430",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000440",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000450",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000460",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000470",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000480",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000490",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000500",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000510",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000520",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000530",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000540",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000550",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000560",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000570",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000580",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000590",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000600",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000610",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000620",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000630",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000640",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000650",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000660",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000670",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000730",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000740",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000750",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000760",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000770",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000780",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000790",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000800",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000810",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000820",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000830",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000840",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000850",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000860",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000870",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000880",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000890",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000900",
+    "status" : "PASS",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000910",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000920",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000930",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000940",
+    "status" : "FAIL",
+    "line" : 0
+  }, {
+    "ruleId" : "CISC-RT-000950",
+    "status" : "FAIL",
+    "line" : 0
+  } ]
+}

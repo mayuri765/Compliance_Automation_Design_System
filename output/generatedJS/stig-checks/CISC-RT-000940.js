@@ -1,0 +1,56 @@
+var metadata = {
+    ruleId: "RULE ID: SV-216637r531085",
+    severity: "SEVERITY: CAT I",
+    audit: "Review the router configuration to determine if it is configured to limit the amount of  source-active messages it accepts on a per-peer basis.  ip msdp peer x.1.28.2 remote-as nn  ip msdp sa-filter in 10.1.28.2 list MSDP_SA_FILTER  ip msdp sa-limit X.1.28.2 nnn  If the router is not configured to limit the source-active messages it accepts, this is a  finding."
+};
+
+function check(config) {
+
+    if (config == null) {
+        return { status: "FAIL", line: 0 };
+    }
+
+    var lines = String(config).split("\n");
+    var matched = false;
+    var foundLine = 0;
+    var pass = true;
+
+    for (var i = 0; i < lines.length; i++) {
+
+        var raw = lines[i];
+        var line = String(raw).toLowerCase();
+
+        if (line.indexOf("ip msdp".toLowerCase()) !== -1) {
+
+            matched = true;
+            foundLine = i + 1;
+
+            var numberMatch = line.match(/\d+/);
+            var actual = numberMatch ? parseInt(numberMatch[0]) : null;
+
+            pass = true;
+        }
+    }
+
+    // Handle NOT EXISTS logic
+    if ("exists" === "not_exists") {
+
+        if (matched) {
+            return { status: "FAIL", line: foundLine };
+        } else {
+            return { status: "PASS", line: 0 };
+        }
+    }
+
+    if (!matched) {
+        return { status: "FAIL", line: 0 };
+    }
+
+    if (pass) {
+        return { status: "PASS", line: foundLine };
+    }
+
+    return { status: "FAIL", line: foundLine };
+}
+
+check(config);
