@@ -121,14 +121,4 @@ src/
 
 ---
 
-## 👩‍💻 Author
 
-**Mayuri Gopal Dhabade**
-
-B.Tech – Computer Science & Engineering
-
-Cybersecurity | Cloud Computing | Software Development
-
----
-
-## ⭐ If you found this project useful, don't forget to Star the repository!
